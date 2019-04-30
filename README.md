@@ -16,16 +16,19 @@ of Ubuntu 16.04 LTS in the notebook Dell XPS 9570.
 
 ## Ubuntu Installation from Windows 10
 
+- Download Ubuntu 16.04 LTS ISO file:
+http://releases.ubuntu.com/16.04/
 - Create ubuntu bootable stick with procedure in:
 https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
-- Ubuntu 16.04 LTS ISO file download:
-http://releases.ubuntu.com/16.04/
+- Disable fast start up on Windows 10 with procedure in: https://www.windowscentral.com/how-disable-windows-10-fast-startup
+- Enable AHCI mode with procedure in: https://medium.com/@peterpang_84917/personal-experience-of-installing-ubuntu-18-04-lts-on-xps-15-9570-3e53b6cfeefe
+- 
 - Disk Space:
   - Chosen sizes:
     - Swap: 16 GB
     - /boot: 1 GB
-    - /: 43 GB
-    - /home: 60 GB
+    - /: 63 GB
+    - /home: 120 GB
   - References:
     - https://help.ubuntu.com/community/DiskSpace
     - https://superuser.com/questions/65115/what-sizes-should-you-allocate-to-the-boot-home-and-swap
