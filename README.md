@@ -22,7 +22,31 @@ http://releases.ubuntu.com/16.04/
 https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
 - Disable fast start up on Windows 10 with procedure in: https://www.windowscentral.com/how-disable-windows-10-fast-startup
 - Enable AHCI mode with procedure in: https://medium.com/@peterpang_84917/personal-experience-of-installing-ubuntu-18-04-lts-on-xps-15-9570-3e53b6cfeefe
-- 
+- Install NVIDIA driver:
+  - Add the graphics drivers PPA:
+    ```
+    sudo add-apt-repository ppa:graphics-drivers/ppa
+    ```
+  - Update and upgrade the system:
+    ```
+    sudo apt update
+    sudo apt upgrade
+    ```
+  - Check the latest nvidia driver:
+    ```
+    ubuntu-drivers list
+    ```
+  - Install the latest driver:
+    ```
+    sudo apt install nvidia-430
+    ```
+  - Check installation:
+  
+  - References:
+    - https://www.maketecheasier.com/install-nvidia-drivers-ubuntu/
+    - http://www.linuxandubuntu.com/home/how-to-install-latest-nvidia-drivers-in-linux
+  
+
 - Disk Space:
   - Chosen sizes:
     - Swap: 16 GB
