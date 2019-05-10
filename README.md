@@ -64,7 +64,12 @@ https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
   - References:
     - https://www.maketecheasier.com/install-nvidia-drivers-ubuntu/
     - http://www.linuxandubuntu.com/home/how-to-install-latest-nvidia-drivers-in-linux
-  
+ 
+## Error Handling
+
+### Windows does not boot:
+- Description: Windows gets stuck on loading and PC restarts. Windows error manager shows up sometimes.
+- Solution: Click in 'advanced options' and 'Continue to Windows 10'. This will restart the PC and when choosing Windows 10 it will boot (2019/5/10).
 
 
   
