@@ -65,11 +65,52 @@ https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
     - https://www.maketecheasier.com/install-nvidia-drivers-ubuntu/
     - http://www.linuxandubuntu.com/home/how-to-install-latest-nvidia-drivers-in-linux
  
+
+## Additional Packages Installation
+
+### ROS kinetic and Gazebo 7.0
+
+- Run the following to install ROS kinetic and related tools :
+    ```
+    sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+
+    sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+    
+    sudo apt update
+    
+    sudo apt install ros-kinetic-desktop-full
+    
+    sudo rosdep init
+    
+    rosdep update
+    
+    echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    
+    source ~/.bashrc
+    
+    sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential python-catkin-tools
+    ```
+
+- Run the following to update Gazebo 7.0 previously installed with ROS kinetic:
+    ```
+    sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+
+    wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+
+    sudo apt update
+    ```
+
+- Ref: http://wiki.ros.org/kinetic/Installation/Ubuntu
+- Last update: 2019/5/11
+
+
 ## Error Handling
 
 ### Windows does not boot:
 - Description: Windows gets stuck on loading and PC restarts. Windows error manager shows up sometimes.
-- Solution: Click in 'advanced options' and 'Continue to Windows 10'. This will restart the PC and when choosing Windows 10 it will boot (2019/5/10).
+- Solution: Click in 'advanced options' and 'Continue to Windows 10'. This will restart the PC and when choosing Windows 10 it will boot.
+- Last update: 2019/5/10
+
 
 
   
