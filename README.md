@@ -29,12 +29,13 @@ https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
 5. Install ubuntu:
   - Procedure: https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-ubuntu-16-04-with-screenshots.html
   - Disk Space:
-    | Mount Point | Size |
-    | --- | ---: |
-    | Swap  | 16 GB   |
-    | boot  | 1 GB    |
-    | /     | 63 GB   |
-    | /home | 120 GB  |
+  
+     Mount Point | Size 
+     --- | --- 
+     Swap  | 16 GB   
+     boot  | 1 GB    
+     /     | 63 GB   
+     /home | 120 GB  
 
     - References:
       - https://help.ubuntu.com/community/DiskSpace
