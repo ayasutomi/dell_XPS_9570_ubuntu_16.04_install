@@ -32,8 +32,8 @@ https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
   
      Mount Point | Size 
      --- | --- 
-     Swap  | 16 GB   
-     boot  | 1 GB    
+     swap  | 16 GB   
+     /boot  | 1 GB    
      /     | 63 GB   
      /home | 120 GB  
 
