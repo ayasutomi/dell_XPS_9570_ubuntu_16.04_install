@@ -99,10 +99,12 @@ https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
     wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 
     sudo apt update
+    
+    sudo apt upgrade
     ```
 
 - Ref: http://wiki.ros.org/kinetic/Installation/Ubuntu
-- Last update: 2019/5/11
+- Last update: 2019/7/14
 
 
 ## Error Handling
